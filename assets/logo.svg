@@ -1,0 +1,12 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titulo descricao">
+    <title id="titulo">Barbearia Corte Fino</title>
+    <desc id="descricao">Logomarca da Barbearia Corte Fino com tesoura e bigode</desc>
+    <rect width="220" height="220" rx="18" fill="#ffffff"/>
+    <circle cx="86" cy="82" r="18" fill="#d0b38c"/>
+    <circle cx="134" cy="82" r="18" fill="#d0b38c"/>
+    <path d="M86 82 L139 125" stroke="#2f261f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M134 82 L81 125" stroke="#2f261f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M64 128 C82 104 102 124 110 140 C118 124 138 104 156 128 C140 144 120 146 110 136 C100 146 80 144 64 128Z" fill="#5b4636"/>
+    <text x="110" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#2f261f">Corte Fino</text>
+    <text x="110" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#7a593f">BARBEARIA</text>
+</svg>

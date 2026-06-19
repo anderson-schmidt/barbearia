@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbearia Corte Fino: cortes, barba e acabamento com atendimento por agendamento.">
+    <title>Barbearia Corte Fino | Cortes e Barba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="topo" class="topo" aria-label="Topo do site">
+        <header class="cabecalho container">
+            <a class="marca" href="#principal" aria-label="Barbearia Corte Fino - Início">
+                <img class="logo" src="assets/logo.svg" alt="Logomarca da Barbearia Corte Fino">
+                <span class="marca-texto">
+                    Corte Fino
+                    <small>Barbearia</small>
+                </span>
+            </a>
+
+            <nav class="menu" aria-label="Navegação principal">
+                <a href="#principal">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a class="botao-agendar" href="#contato">Agendar horário</a>
+        </header>
+    </section>
+
+    <main>
+        <section id="principal" class="hero" aria-labelledby="titulo-principal">
+            <img class="hero-imagem" src="assets/hero-barbearia-profissional.png" alt="Barbeiro profissional realizando um corte em cliente sentado na cadeira">
+            <div class="hero-sombra"></div>
+
+            <div class="container hero-conteudo fonte-principal">
+                <p class="sobretitulo">Barbearia de bairro, serviço de primeira</p>
+                <h1 id="titulo-principal">Seu estilo começa <span>na cadeira certa.</span></h1>
+                <p class="texto-hero">
+                    Cortes precisos, barba bem desenhada e uma pausa merecida na sua rotina.
+                    Na <strong>Corte Fino</strong>, cada atendimento é feito com hora marcada e atenção aos detalhes.
+                </p>
+                <a class="botao-principal" href="#contato">Reserve seu horário <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+
+        <section id="servicos" class="secao servicos" aria-labelledby="titulo-servicos">
+            <div class="container">
+                <div class="cabecalho-secao centro fonte-servicos">
+                    <p class="sobretitulo">O essencial, muito bem feito</p>
+                    <h2 id="titulo-servicos">Serviços</h2>
+                    <p>Escolha o cuidado que combina com o seu momento. Nós cuidamos do resto.</p>
+                </div>
+
+                <div class="grade-servicos fonte-servicos">
+                    <article class="cartao-servico">
+                        <span class="numero-servico">01</span>
+                        <h3>Corte</h3>
+                        <p>Do clássico ao contemporâneo, com acabamento limpo e personalidade.</p>
+                    </article>
+                    <article class="cartao-servico">
+                        <span class="numero-servico">02</span>
+                        <h3>Barba</h3>
+                        <p>Desenho preciso, toalha quente e cuidado em cada contorno.</p>
+                    </article>
+                    <article class="cartao-servico">
+                        <span class="numero-servico">03</span>
+                        <h3>Combo</h3>
+                        <p>Corte e barba em uma experiência completa para renovar o visual.</p>
+                    </article>
+                    <article class="cartao-servico">
+                        <span class="numero-servico">04</span>
+                        <h3>Acabamento</h3>
+                        <p>Pezinho, sobrancelha e os detalhes que deixam tudo no lugar.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="secao sobre" aria-labelledby="titulo-sobre">
+            <div class="container sobre-grade">
+                <div class="sobre-texto fonte-sobre">
+                    <p class="sobretitulo">Nossa casa</p>
+                    <h2 id="titulo-sobre">Mais que um corte. Um ritual de cuidado.</h2>
+                    <p>
+                        A <span class="nome-negocio">Corte Fino</span> foi criada para quem valoriza técnica,
+                        conversa boa e um atendimento feito sem pressa. Cada cadeira, ferramenta e detalhe do
+                        nosso espaço foi pensado para você se sentir bem do começo ao fim.
+                    </p>
+                    <p>
+                        Trabalhamos com agenda organizada, higiene em todas as etapas e profissionais que entendem
+                        que estilo também é presença.
+                    </p>
+                    <a class="link-texto" href="#contato">Conheça nosso espaço <span aria-hidden="true">→</span></a>
+                </div>
+
+                <figure class="foto-sobre">
+                    <img src="assets/sobre-barbearia-profissional.png" alt="Barbeiro realizando acabamento preciso na barba de um cliente">
+                    <figcaption>Precisão em cada detalhe.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="contato" class="secao contato" aria-labelledby="titulo-contato">
+            <div class="container">
+                <div class="cabecalho-secao centro fonte-servicos">
+                    <p class="sobretitulo">Visite a Corte Fino</p>
+                    <h2 id="titulo-contato">Contato e localização</h2>
+                </div>
+
+                <div class="contato-grade">
+                    <div class="contato-informacoes fonte-sobre">
+                        <p class="rotulo-contato">Endereço</p>
+                        <p>Rua dos Barbeiros, 85<br>Centro, São Paulo - SP</p>
+
+                        <p class="rotulo-contato">Horários</p>
+                        <p>Terça a sexta, 9h às 19h<br>Sábado, 9h às 17h</p>
+
+                        <p class="rotulo-contato">Agendamentos</p>
+                        <a href="tel:+5511999999999">(11) 99999-9999</a>
+                        <a href="mailto:contato@cortefino.com.br">contato@cortefino.com.br</a>
+                        <a class="botao-contato" href="tel:+5511999999999">Ligar para a barbearia <span aria-hidden="true">→</span></a>
+                    </div>
+
+                    <iframe
+                        class="mapa"
+                        src="https://www.google.com/maps?q=Avenida%20Paulista%2C%20S%C3%A3o%20Paulo%2C%20SP&output=embed"
+                        title="Mapa com localização da Barbearia Corte Fino"
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p><span>Corte Fino</span> Barbearia</p>
+    </footer>
+
+    <a class="botao-subir" href="#topo" aria-label="Voltar para o topo" title="Voltar para o topo">↑</a>
+</body>
+</html>
